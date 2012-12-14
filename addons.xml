@@ -11,7 +11,7 @@
   <extension point='xbmc.python.module' library='lib' />
 </addon>
 
-<addon id='plugin.video.youtube' version='3.2.0' name='YouTube' provider-name='TheCollective'>
+<addon id='plugin.video.youtube' version='3.2.2' name='YouTube' provider-name='TheCollective'>
   <requires>
     <import addon='xbmc.python' version='2.0'/>
     <import addon='script.module.simplejson' version='2.0.10'/>
@@ -29,6 +29,19 @@
     <summary lang='bg'>Видео добавка за YouTube</summary>
     <description lang='bg'>Добавката ви позволява да разглеждате и гледате видео клипове от любимия на на всички видео сайт!</description>
     <disclaimer lang='bg'>Някои части от добавката може да са незаконни в държавата, в която се намирате - моля, проверете местните закони, преди да я инсталирате.</disclaimer>
+  </extension>
+</addon>
+
+<addon id="repository.ibh" name="UFK's XBMC Addons" version="0.0.1" provider-name="ufk">
+  <extension point="xbmc.addon.repository" name="UFK's XBMC Addon Repository">
+    <info compressed="false">https://github.com/ufk/ibh/raw/master/addons.xml</info>
+    <checksum>https://github.com/ufk/ibh/raw/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/ufk/ibh/raw/master/addons/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Install UFK's Addons</summary>
+    <description>Download and install addons by UFK</description>
+    <platform>all</platform>
   </extension>
 </addon>
 </addons>
